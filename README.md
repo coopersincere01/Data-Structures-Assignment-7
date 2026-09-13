@@ -35,3 +35,23 @@ Recommended Products:
 At this stage in the course, you’re not designing full-scale systems. Instead, you’re learning to manipulate data using core structures like lists and sets. This assignment helps you practice the kind of logic that underpins real-world software tools while making key decisions about data structure selection and iteration. 
 
 This work directly supports your final project, where you’ll complete a mock technical interview. There, you’ll face an open-ended coding challenge and be expected to select the best data structure for the job. The core skills you build here—gathering inputs, cleaning data, selecting the right structure, and explaining trade-offs—are the foundation for those high-stakes problem-solving moments.
+
+## My Implementation
+
+For this assignment, I created a Python recommendation program that compares customer preferences with product tags using lists and sets. Products with matching tags are returned and sorted by the number of matches.
+
+### Files
+
+- `product_catalog.py` - contains the recommendation program
+- `product_data.py` - contains the product catalog
+- `design_memo.txt` - explains the design decisions and scalability of the program
+
+### Running the Program
+
+Run the following command:
+
+```bash
+python product_catalog.py
+
+```
+Enter each preference when prompted and type `N` when you are finished.
